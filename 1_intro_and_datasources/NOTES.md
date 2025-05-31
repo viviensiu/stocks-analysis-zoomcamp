@@ -30,13 +30,10 @@
 * Macroeconomic data provides big-picture insights into economic trends, guides policy decisions, influences market sentiment, evaluates sector performance, and offers global perspectives. Traders and investors rely on it to make informed decisions, anticipate market movements, and manage risks effectively.
 * Financial reporting provides transparency, accountability, and credibility to stakehodlers by offering accurate insights into a company's financial performance and position. It enables informed decision-making, enhances investor confidence, and facilitates access to capital markets.
 
-
-
 **Abbreviations & Acronyms**
 * CBO: Congressional Budget Office, a nonpartisan agency of the U.S. Congress that provides budget and economic data and analysis. The CBO releases reports that include projections of spending and revenues, deficits and debt, and economic indicators like GDP.
 * GDPPOT: Real potential GDP, an estimate of the output the economy could produce if its capital and labour resources were used at a high rate. Note the data is adjusted to remove the effects of inflation.
 * CPI: Consumer Price Index, represents an aggregate of prices paid by urban consumers for a typical basket of goods, excluding food and energy. 
-* CAGR: Compound Annual Growth Rate, it measures the average annual growth rate of an investment (or any metric) over a period of time, assuming the profits are reinvested each year. 
-$\text{CAGR} = \frac{\text{Ending Value}^{\frac{1}{n}}}{\text{Beginning Value}} - 1$
+* CAGR: Compound Annual Growth Rate, it measures the average annual growth rate of an investment (or any metric) over a period of time, assuming the profits are reinvested each year. $CAGR=\frac{\text{Ending Value}^{\frac{1}{n}}}{\text{Beginning Value}}-1$
 * OHLCV: Open, high, low, close, volume.
 
