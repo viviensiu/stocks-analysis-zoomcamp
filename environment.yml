@@ -1,0 +1,13 @@
+name: stocks-analysis-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - notebook
+  - numpy
+  - pandas
+  - yfinance
+  - pandas-datareader
+  - plotly_express
+  - matplotlib
+prefix: /Users/viviensiew/anaconda3/envs/stocks-analysis-env
