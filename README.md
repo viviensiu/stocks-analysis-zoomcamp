@@ -28,3 +28,4 @@ conda env export --from-history > environment.yml
 * Fundamental data: Do you need company fundamentals? e.g. YFinance provides 4 years of data.
 * Financial reporting and alternative data.
 * Important: Do not leak data! You must only use data up to the prediction date, never use future data in your model or analysis!
+* Also, start early as majority of the work would be on collecting and consolidating data.

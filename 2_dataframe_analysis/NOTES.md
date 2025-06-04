@@ -34,7 +34,9 @@
 * Candlestick chart: financial visualisation of OHLCV data. Useful to represent time trends to view bullish vs bearish days.
 * You can use the candlestick chart to calculate Simple Moving Average (SMA) for 10 and 20 days. It looks at the close price for last 10 and 20 days and is sensitive to changes over recent days, which SMA10 is more sensitive. So when SMA10 grows faster than SMA20 and they intersect, it signals down trend and that might be time to buy. When SMA10 intersects SMA20 from the bottom then it's uptrend and time to sell.
 * Some advice on what we want to predict:
-    * Historical growth is the main memory of OHLCV dataset to be used as a feature for future growth prediction. Closing prices should not be used as they may always be growing (non-stationary). Data used for training vs test/validation shouldn't be too different, there would be problem if if train using low values of Close and try to predict high values later on . * Historical growth is stationary and distributed around 1.   
+    * Historical growth is the main memory of OHLCV dataset to be used as a feature for future growth prediction. Closing prices should not be used as they may always be growing (non-stationary). Data used for training vs test/validation shouldn't be too different, there would be problem if if train using low values of Close and try to predict high values later on . * Historical growth is stationary and distributed around 1.  
+* For binary classification, say if you try to classify just positive and negative growth, a 50/50 distribution of percentage of growth may be hard to differentiate. Hence being more specific like growth more than x% may be better to classify, as long as the imbalance is not too extreme like 1:99 ratio.
+* Note that this would be a lengthy process to consolidate different financial indicators to produce a more thorough analysis. 
 
-**References:**
+**References**
 * [StockAnalysis.com](https://stockanalysis.com/): Good source for stock analysis data.
